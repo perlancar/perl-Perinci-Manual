@@ -1,0 +1,36 @@
+package Perinci::Manual::Cookbook; # just to make podweaver happy
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
+
+1;
+# ABSTRACT: Perinci cookbook
+
+=head1 FUNCTION METADATA RECIPES
+
+=head2 Hiding function
+
+To make a function "hidden", you can set C<x.no_index> attribute to true, or add
+a C<hidden> tag to the C<tags> property. This will have the following effects:
+
+=over
+
+=item * L<Perinci::To::POD> (as well as its sisters like L<Perinci::To::Text>, L<Perinci::To::HTML>) will not list the function in the generated documentation
+
+If you use the L<Pod::Weaver> plugin L<Pod::Weaver::Plugin::Rinci>, the
+generated POD documentation for your module will also skip the function, making
+the function undocumented in the POD.
+
+=item * L<Perinci::Access::Schemeless>, L<Perinci::Access::Perl>, as well as other C<Perinci::Access::*> modules which uses the former (like L<Perinci::Access::HTTP::Server>) will not list the function
+
+When you issue a C<list> CL<Riap> request to one of these modules, the function
+will not be listed in the package it is in.
+
+=back
+
+Keywords: undocumented, documentation
+
+
+=head1 SEE ALSO
