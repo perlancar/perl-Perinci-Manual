@@ -1,3 +1,8 @@
+0.002   2021-04-24  Released-By: PERLANCAR; Urgency: medium
+
+	- [reorganize] Move ::Manual::Cookbook to ::Manual::HowTo::.
+
+
 0.001   2021-01-16  Released-By: PERLANCAR
 
         - First early release.
