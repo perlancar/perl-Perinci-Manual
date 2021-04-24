@@ -1,4 +1,4 @@
-package Perinci::Manual::Cookbook; # just to make podweaver happy
+package Perinci::Manual::HowTo::FunctionMetadata; # just to make podweaver happy
 
 # AUTHORITY
 # DATE
@@ -6,11 +6,9 @@ package Perinci::Manual::Cookbook; # just to make podweaver happy
 # VERSION
 
 1;
-# ABSTRACT: Perinci cookbook
+# ABSTRACT: How-to guides related to function metadata
 
-=head1 FUNCTION METADATA RECIPES
-
-=head2 Hiding function
+=head1 HIDING FUNCTION
 
 To make a function "hidden", you can set C<x.no_index> attribute to true, or add
 a C<hidden> tag to the C<tags> property. This will have the following effects:
@@ -34,3 +32,7 @@ Keywords: undocumented, documentation
 
 
 =head1 SEE ALSO
+
+More specific how-to guides can be found in
+C<Perinci::Manual::HowTo::FunctionMetadata::XXX>, e.g.
+L<Perinci::Manual::HowTo::FunctionMetadata::Examples>

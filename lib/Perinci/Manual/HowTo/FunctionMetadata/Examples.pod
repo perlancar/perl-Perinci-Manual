@@ -1,0 +1,11 @@
+package Perinci::Manual::HowTo::FunctionMetadata::Examples; # just to make podweaver happy
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
+
+1;
+# ABSTRACT: How-to guides related to function metadata property 'examples'
+
+=head1 SEE ALSO
