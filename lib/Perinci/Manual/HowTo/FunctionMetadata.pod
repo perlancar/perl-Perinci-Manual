@@ -8,6 +8,27 @@ package Perinci::Manual::HowTo::FunctionMetadata; # just to make podweaver happy
 1;
 # ABSTRACT: How-to guides related to function metadata
 
+=head2 HIDING ARGUMENT
+
+To make an argument "hidden", you can add either a C<hidden>, C<hidden-cli>, or
+C<hidden-mod> to the C<tags> property. This will have the following effects:
+
+=over
+
+=item * L<Perinci::To::POD> (as well as its sisters like L<Perinci::To::Text>, L<Perinci::To::HTML>) will not list the argument in the generated documentation
+
+This is for C<hidden> or C<hidden-mod> tag.
+
+=item * L<Perinci::Sub::To::CLIDocData> (which is used by L<Perinci::CmdLine>) will not list the arguments in the CLI documentation as well as --help message
+
+This is for C<hidden> or C<hidden-cli> tag.
+
+=back
+
+So with C<hidden-cli> or C<hidden-mod> you can hide arguments from CLI-only or
+module POD only.
+
+
 =head1 HIDING FUNCTION
 
 To make a function "hidden", you can set C<x.no_index> attribute to true, or add
