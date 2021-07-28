@@ -1,3 +1,10 @@
+0.005   2021-07-28  Released-By: PERLANCAR; Urgency: medium
+
+	- Add
+	  :Reference::FunctionMetadata::Examples::PropertyAttributeIndex &
+	  :Reference::FunctionMetadata::PropertyAttributeIndex.
+
+
 0.004   2021-07-02  Released-By: PERLANCAR; Urgency: low
 
 	- Fix POD formatting.
