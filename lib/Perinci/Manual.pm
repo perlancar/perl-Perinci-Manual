@@ -12,10 +12,11 @@ package Perinci::Manual;
 
 The C<Perinci> namespace contains several separate frameworks (for example:
 L<Perinci::Sub::Wrapper>, L<Perinci::CmdLine>), all themed around the L<Rinci>
-and L<Riap> specification, and each framework having its own documentation.
+and L<Riap> specification, and each framework having its own documentation. This
+distribution contains additional, mostly cross-framework documentation.
 
-This distribution contains additional, mostly cross-framework, and heavily
-task-oriented documentation.
+The documentation is organized around the concept of "four types of
+documentation". See L<https://documentation.divio.com/> for more details.
 
 
 =head1 SEE ALSO
