@@ -130,7 +130,7 @@ other schemas.
 
 =head2 cmdline_on_getarg
 
-Code. Added in L<Rinci 1.1.43, removed in 1.1.44.
+Code. Added in L<Rinci> 1.1.43, removed in 1.1.44.
 
 =head2 x.perl.coerce_to_datetime_duration_obj
 
