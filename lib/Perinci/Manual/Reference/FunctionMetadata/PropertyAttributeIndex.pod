@@ -119,6 +119,10 @@ Any. L<Rinci> standard. See: L<Rinci::function>.
 Bool. Observed by L<App::rimetadb> to allow excluding a function from being
 included in the database.
 
+See also:
+L<Perinci::Manual::Reference::FunctionMetadata::Arguments::PropertyAttributeIndex/"x.app.rimetadb.exclude">
+(per-function argument exclude setting).
+
 =head2 x.dist.zilla.plugin.rinci.wrap.wrap_args
 
 2014-03-27.
