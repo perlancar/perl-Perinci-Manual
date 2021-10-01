@@ -1,3 +1,5 @@
+# no code
+## no critic: TestingAndDebugging::RequireStrict
 package Perinci::Manual;
 
 # AUTHORITY
