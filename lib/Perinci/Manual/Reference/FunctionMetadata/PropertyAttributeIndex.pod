@@ -138,6 +138,33 @@ The original goal is to be able to show the version of module that generates
 this function/function metadata in CLI via C<--version>, and to check via
 C<--check-version>.
 
+=head2 x.envs
+
+Hash of defhashes. List of environment variables observed by the function. Hash
+key is the environment variable name, hash value is a defhash similar to
+function argument specification.
+
+Currently observed by L<Perinci::CmdLine::POD>. Will be observed by
+L<Perinci::To::Doc> also.
+
+Example:
+
+ # from App::orgadb
+ 'x.envs' => {
+     'ORGADB_COLOR_THEME' => {
+         summary => 'Set default color theme',
+         schema => 'perl::colortheme::modname_with_optional_args*',
+         description => <<'_',
+
+ Color theme is Perl module name under the `ColorTheme::Search::` namespace,
+ without the namespace prefix. The default is `Light`. You can set color theme
+ using the `--color-theme` command-line option as well as this environment
+ variable.
+
+ _
+     },
+ }
+
 =head2 x.inline_generator_modules
 
 2015-07-15.
